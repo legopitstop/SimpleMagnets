@@ -1,0 +1,9 @@
+{
+  "values": [
+    "magnet:copper_magnet_block",
+    "magnet:diamond_magnet_block",
+    "magnet:gold_magnet_block",
+    "magnet:iron_magnet_block",
+    "magnet:netherite_magnet_block"
+  ]
+}

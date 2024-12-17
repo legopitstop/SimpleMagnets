@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "magnet:iron_magnet_block"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_magnet_iron_magnet": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "magnet:iron_magnet"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_magnet_iron_magnet"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "magnet:iron_magnet_block"
+        ]
+    },
+    "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "magnet:copper_magnet_block"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        },
+        "has_magnet_copper_magnet": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "magnet:copper_magnet"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_magnet_copper_magnet"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "magnet:copper_magnet_block"
+        ]
+    },
+    "sends_telemetry_event": false
+}

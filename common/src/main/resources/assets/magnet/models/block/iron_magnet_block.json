@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/template_piston",
+  "textures": {
+    "bottom": "magnet:block/magnet_bottom",
+    "platform": "magnet:block/iron_magnet_top",
+    "side": "magnet:block/iron_magnet_side"
+  }
+}

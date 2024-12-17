@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["##", "##"],
+  "key": { "#": { "item": "magnet:iron_magnet" } },
+  "result": { "item": "magnet:iron_magnet_block" }
+}
